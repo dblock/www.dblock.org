@@ -1,0 +1,41 @@
+title: dblock.org
+locale: en_US
+url:
+markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+kramdown:
+  input: GFM
+owner:
+  name:
+  avatar: blog.gif
+  bio:
+  email: dblock@dblock.org
+  disqus-shortname:
+  twitter: dblockdotorg
+  facebook:
+  google:
+    plus:
+    analytics: UA-4756101-4
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github:
+  stackoverflow:
+  linkedin:
+  instagram:
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  youtube:
+  soundcloud:
+paginate: 35
+google_custom_search:
