@@ -14,9 +14,11 @@ figure {
 #index img, article img {
 	max-width: 100%;
 	height: auto;
-	border-width: 0;
 	vertical-align: middle;
 	-ms-interpolation-mode: bicubic;
+}
+article img {
+  border-width: 0;
 }
 svg:not(:root) {
 		overflow: hidden;
