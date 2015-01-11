@@ -1,6 +1,6 @@
 title: dblock.org
 locale: en_US
-url:
+url: http://www.dblock.org
 markdown: kramdown
 highlighter: pygments
 sass:
