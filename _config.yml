@@ -8,6 +8,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 kramdown:
   input: GFM
 owner:
