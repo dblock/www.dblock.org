@@ -1,0 +1,25 @@
+---
+permalink: '/ShowPost.aspx/'
+---
+
+<script language='javascript'>
+var posts_map = {};
+
+posts_map['1588'] = 'http://code.dblock.org/2011/05/29/dear-california-engineer-your-commute-is-killing-you-move-to-new-york.html'
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+var id = getParameterByName('id');
+var url = posts_map[id];
+
+if (url) {
+  window.location.replace(url);
+} else {
+  window.location = '/'
+}
+</script>
