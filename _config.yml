@@ -2,7 +2,6 @@ title: dblock.org
 locale: en_US
 url: http://www.dblock.org
 markdown: kramdown
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
@@ -38,5 +37,4 @@ owner:
   dribbble:
   youtube:
   soundcloud:
-paginate: 35
 google_custom_search:
